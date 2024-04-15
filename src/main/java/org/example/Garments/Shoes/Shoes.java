@@ -1,6 +1,8 @@
 package org.example.Garments.Shoes;
 
-public interface Shoes
-{
+import org.example.Garments.Garments;
 
+public interface Shoes extends Garments
+{
+    String returnType();
 }
